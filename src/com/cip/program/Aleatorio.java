@@ -4,9 +4,7 @@ public class Aleatorio {
 
 	public static void main(String[] args) {
 		
-		double x = Math.random();
-		
-		
+		int x = (int)(Math.random()*10.01)+1;
 		
 		System.out.println(x);
 
